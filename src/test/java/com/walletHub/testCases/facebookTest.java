@@ -11,6 +11,7 @@ import javax.security.auth.login.FailedLoginException;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.tools.ant.launch.Launcher;
+import org.apache.tools.ant.taskdefs.Input;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
@@ -41,7 +42,7 @@ public class facebookTest {
 
 
 	@BeforeClass
-	public void loginTest() throws InterruptedException, IOException {
+	public void setup() throws InterruptedException  {
 
 		logger = Logger.getLogger("SelectInsuranceTest");
 		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\logging\\log4j.properties");
@@ -50,57 +51,35 @@ public class facebookTest {
 		utils = new Utils();
 		driver = utils.launchBrowser();
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
-
+	}
+		@Test
+		public void loginTest() throws InterruptedException, IOException {
 		try {
 
 		// Navigating to the url
 		logger.info("Navigating to URL");
-		driver.navigate().to("https://web.facebook.com/");
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		logger.info("CLick on create new account");
-		driver.findElement(By.linkText("Create New Account")).click();
+		driver.navigate().to(utils.getProperty("facebookUrl"));
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[contains(@aria-label,'First name')]")));
-		String name = "Bamidele";
-		FacebookPages fbPages = new FacebookPages(driver);
-		logger.info("Input first name");
-		fbPages.getFirstName().sendKeys(name);
-
-		logger.info("Input last name");
-		fbPages.getlastName().sendKeys("cone");		
-
+		//Login
+		FacebookPages fb = new FacebookPages(driver);
 		logger.info("Input email");
-		fbPages.getRegEmail().sendKeys("ambicolonel@gmail.com");
-
-		logger.info("Input confirm email");
-		fbPages.getConfrimRegEmail().sendKeys("ambicolonel@gmail.com");
-
+		fb.getEmail().sendKeys(utils.getProperty("fbEmail"));
 		logger.info("Input password");
-		fbPages.getPasswrd().sendKeys("ambicolonel@mailinator.com");
-
-
-		logger.info("Choose DOB");
-		fbPages.getDay().sendKeys("22");
-		fbPages.getmonth().sendKeys("Jun");
-		fbPages.getYear().sendKeys("1993");
-
-
-		logger.info("Choose gender");
-		fbPages.getGender().click();
-
-
-		logger.info("Submit");
-		fbPages.getSubmitbtn().click();
-
-
-		String actual = driver.findElement(By.xpath("//span[contains(text(),'"+name+"')]")).getText();
-		sAssert.assertEquals(actual, name);
-		System.out.println(actual+ "" +name);
-		logger.info("Asserted that registration is successful");
+		fb.getPasswrd().sendKeys(utils.getProperty("fbPwrd"));
+		logger.info("Click on login button");
+		fb.getloginBtn().click();
+		logger.info("Login Successful");
+		
+		//Make post
+		fb.getPostField().click();
+		fb.postTextBox().sendKeys("Hello World");
+		fb.getPostBtn().click();
+		logger.info("Post successful made");
+		
 		} 
 		catch (Exception e) {
 
-			logger.info("Rgeistration  unsuccessful. see error \n"+e);
+			logger.info("Post  unsuccessful. see error \n"+e);
 		}
 	}
 

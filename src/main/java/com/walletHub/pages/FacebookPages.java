@@ -16,76 +16,49 @@ public class FacebookPages {
 	}
 
 
-	//Locator for first name
-	@FindBy (name = "//input[contains(@aria-label,'First name')]")
-	private WebElement firstName;
-	public WebElement getFirstName() {
-		return firstName;
+	//Locator for email field
+	@FindBy (id = "email")
+	private WebElement email;
+	public WebElement getEmail() {
+		return email;
 
 	}
-	//Locator for last name
-	@FindBy (name =  "//input[contains(@name, 'lastname')]")
-	private WebElement lastName;
-	public WebElement getlastName() {
-		return lastName;
-	}	
-
-	//Locator for email
-	@FindBy(name = "//input[@name='reg_email__']")
-	private	WebElement regEmail;
-	//Method to click on Login
-	public WebElement getRegEmail() {
-		return regEmail;
-	}
-
-	//Locator for email confirmation field
-	@FindBy(xpath = "//input[@name='reg_email_confirmation__']")
-	private	WebElement confrimRegEmail;
-	//Method to click on text field
-	public WebElement getConfrimRegEmail() {
-		return confrimRegEmail;
-	}
-
-
-	//Locator for pasword
-	@FindBy(xpath = "//input[@name='reg_passwd__']")
+	//Locator for password field
+	@FindBy (id =  "pass")
 	private WebElement passwrd;
 	public WebElement getPasswrd() {
 		return passwrd;
-	}
+	}	
 
-	//Locator for day
-	@FindBy(xpath = "//select[@aria-label='Day']")
-	private WebElement day;
-	public WebElement getDay() {
-		return day;
-	}
-	//Locator for month
-	@FindBy(xpath = "//select[@aria-label='Month']")
-	private WebElement month;
-	public WebElement getmonth() {
-		return month;
-	}
-	//Locator for year
-	@FindBy(xpath = "//select[@aria-label='Year']")
-	private WebElement year;
-	public WebElement getYear() {
-		return year;
+	//Locator for login button
+	@FindBy(name = "login")
+	private	WebElement loginBtn;
+	//Method to click on Login
+	public WebElement getloginBtn() {
+		return loginBtn;
 	}
 	
-	// Locator for gender
-	@FindBy(xpath = "//label[contains(text(),'Male')]")
-	private WebElement gender;
-	public WebElement getGender() {
-		return gender;
+	//Locator for post field
+	@FindBy (xpath =  "//span[contains(text(),\"What's on your mind, Grey?\")]//parent::div")
+	private WebElement postField;
+	public WebElement getPostField() {
+		return postField;
+	}	
+
+	//Locator for test field
+	@FindBy(xpath = "//div[contains(text(),\"What's on your mind\")]//preceding-sibling::div[1]/p")
+	private	WebElement postTextBox;
+	//Method to click on Login
+	public WebElement postTextBox() {
+		return postTextBox;
 	}
 
-	//Locator to click submit
-	@FindBy(xpath = "//button[@name='websubmit']")
-	private WebElement submit;
-	public WebElement getSubmitbtn() {
-		return submit;
-	}
+	//Locator for post button
+	@FindBy (xpath =  "//div[@aria-label = 'Post']")
+	private WebElement postBtn;
+	public WebElement getPostBtn() {
+		return postBtn;
+	}	
 
 
 }
