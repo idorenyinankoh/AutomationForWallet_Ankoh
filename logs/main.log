@@ -1,0 +1,474 @@
+2022-09-08 23:00:39,754 +0100 [main] INFO  (SelectInsuranceTest.java:44) - lanching browser
+2022-09-08 23:04:52,821 +0100 [main] INFO  (SelectInsuranceTest.java:44) - lanching browser
+2022-09-08 23:04:55,241 +0100 [main] INFO  (SelectInsuranceTest.java:49) - Navigating to URL
+2022-09-09 01:02:45,949 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 01:02:50,162 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 01:03:02,944 +0100 [main] INFO  (SelectInsuranceTest.java:68) - Scroll to star ratings
+2022-09-09 01:03:02,946 +0100 [main] ERROR (SelectInsuranceTest.java:75) - Failed to open browser. See stacktrace 
+java.lang.NullPointerException
+2022-09-09 01:03:02,948 +0100 [main] INFO  (SelectInsuranceTest.java:78) - Hovering over stars
+2022-09-09 01:03:02,949 +0100 [main] ERROR (SelectInsuranceTest.java:97) - Failed to hover and click 
+ java.lang.NullPointerException
+2022-09-09 01:03:02,949 +0100 [main] INFO  (SelectInsuranceTest.java:100) - Selecting Health Insurance
+2022-09-09 01:03:02,949 +0100 [main] ERROR (SelectInsuranceTest.java:107) - Health Insurance not selected. See error: 
+java.lang.NullPointerException
+2022-09-09 01:03:02,949 +0100 [main] INFO  (SelectInsuranceTest.java:118) - Adding review text
+2022-09-09 01:03:02,950 +0100 [main] ERROR (SelectInsuranceTest.java:125) - Failed to add review text: 
+java.lang.NullPointerException
+2022-09-09 01:03:02,950 +0100 [main] INFO  (SelectInsuranceTest.java:128) - Logging in
+2022-09-09 01:03:02,950 +0100 [main] ERROR (SelectInsuranceTest.java:136) - Failed to login: 
+java.lang.NullPointerException
+2022-09-09 01:05:24,394 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 01:05:26,893 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 01:05:45,066 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 01:05:45,067 +0100 [main] ERROR (SelectInsuranceTest.java:76) - Failed to open browser. See stacktrace 
+java.lang.NullPointerException
+2022-09-09 01:05:45,068 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 01:05:45,068 +0100 [main] ERROR (SelectInsuranceTest.java:98) - Failed to hover and click 
+ java.lang.NullPointerException
+2022-09-09 01:05:45,068 +0100 [main] INFO  (SelectInsuranceTest.java:101) - Selecting Health Insurance
+2022-09-09 01:05:45,068 +0100 [main] ERROR (SelectInsuranceTest.java:108) - Health Insurance not selected. See error: 
+java.lang.NullPointerException
+2022-09-09 01:05:45,068 +0100 [main] INFO  (SelectInsuranceTest.java:119) - Adding review text
+2022-09-09 01:05:45,068 +0100 [main] ERROR (SelectInsuranceTest.java:126) - Failed to add review text: 
+java.lang.NullPointerException
+2022-09-09 01:05:45,068 +0100 [main] INFO  (SelectInsuranceTest.java:129) - Logging in
+2022-09-09 01:05:45,068 +0100 [main] ERROR (SelectInsuranceTest.java:137) - Failed to login: 
+java.lang.NullPointerException
+2022-09-09 01:08:52,189 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 01:08:55,298 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 01:09:22,396 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 01:09:22,488 +0100 [main] ERROR (SelectInsuranceTest.java:76) - Failed to open browser. See stacktrace 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //h3[contains(text(),"What's Your Rating?")]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h3[contains(text(),"What's Your Rating?")]]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb6e9a13cf36fd2a6ec4d5861cd388c0
+*** Element info: {Using=xpath, value=//h3[contains(text(),"What's Your Rating?")]]}
+2022-09-09 01:09:22,489 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 01:09:22,559 +0100 [main] ERROR (SelectInsuranceTest.java:98) - Failed to hover and click 
+ org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb6e9a13cf36fd2a6ec4d5861cd388c0
+*** Element info: {Using=xpath, value=//h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div}
+2022-09-09 01:09:22,559 +0100 [main] INFO  (SelectInsuranceTest.java:101) - Selecting Health Insurance
+2022-09-09 01:09:22,606 +0100 [main] ERROR (SelectInsuranceTest.java:108) - Health Insurance not selected. See error: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),'Select...')]" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Select...')]"' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb6e9a13cf36fd2a6ec4d5861cd388c0
+*** Element info: {Using=xpath, value=//span[contains(text(),'Select...')]"}
+2022-09-09 01:09:22,606 +0100 [main] INFO  (SelectInsuranceTest.java:119) - Adding review text
+2022-09-09 01:10:22,695 +0100 [main] ERROR (SelectInsuranceTest.java:126) - Failed to add review text: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".android.textarea-user"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb6e9a13cf36fd2a6ec4d5861cd388c0
+*** Element info: {Using=css selector, value=.android.textarea-user}
+2022-09-09 01:10:22,695 +0100 [main] INFO  (SelectInsuranceTest.java:129) - Logging in
+2022-09-09 01:10:32,308 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 01:10:34,906 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 01:11:13,578 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 01:11:13,656 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 01:11:13,739 +0100 [main] ERROR (SelectInsuranceTest.java:98) - Failed to hover and click 
+ org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7d484c32147843e0bb9907b13ea9481
+*** Element info: {Using=xpath, value=//h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div}
+2022-09-09 01:11:13,739 +0100 [main] INFO  (SelectInsuranceTest.java:101) - Selecting Health Insurance
+2022-09-09 01:11:13,790 +0100 [main] ERROR (SelectInsuranceTest.java:108) - Health Insurance not selected. See error: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),'Select...')]" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Select...')]"' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7d484c32147843e0bb9907b13ea9481
+*** Element info: {Using=xpath, value=//span[contains(text(),'Select...')]"}
+2022-09-09 01:11:13,790 +0100 [main] INFO  (SelectInsuranceTest.java:119) - Adding review text
+2022-09-09 01:11:22,739 +0100 [main] ERROR (SelectInsuranceTest.java:137) - Failed to login: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb6e9a13cf36fd2a6ec4d5861cd388c0
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 01:12:13,822 +0100 [main] ERROR (SelectInsuranceTest.java:126) - Failed to add review text: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".android.textarea-user"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7d484c32147843e0bb9907b13ea9481
+*** Element info: {Using=css selector, value=.android.textarea-user}
+2022-09-09 01:12:13,823 +0100 [main] INFO  (SelectInsuranceTest.java:129) - Logging in
+2022-09-09 01:12:20,333 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 01:12:22,852 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 01:13:03,332 +0100 [main] ERROR (SelectInsuranceTest.java:137) - Failed to login: 
+java.lang.NullPointerException
+2022-09-09 01:13:10,477 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 01:13:13,506 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 01:13:40,795 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 01:13:40,896 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 01:13:40,988 +0100 [main] ERROR (SelectInsuranceTest.java:98) - Failed to hover and click 
+ org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0160d63bfa1afb41b1852426b645090
+*** Element info: {Using=xpath, value=//h3[contains(text(),\"What's Your Rating?\")]/following-sibling::review-star/descendant::div}
+2022-09-09 01:13:40,988 +0100 [main] INFO  (SelectInsuranceTest.java:101) - Selecting Health Insurance
+2022-09-09 01:13:41,037 +0100 [main] ERROR (SelectInsuranceTest.java:108) - Health Insurance not selected. See error: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),'Select...')]" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Select...')]"' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0160d63bfa1afb41b1852426b645090
+*** Element info: {Using=xpath, value=//span[contains(text(),'Select...')]"}
+2022-09-09 01:13:41,044 +0100 [main] INFO  (SelectInsuranceTest.java:119) - Adding review text
+2022-09-09 01:14:41,119 +0100 [main] ERROR (SelectInsuranceTest.java:126) - Failed to add review text: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".android.textarea-user"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0160d63bfa1afb41b1852426b645090
+*** Element info: {Using=css selector, value=.android.textarea-user}
+2022-09-09 01:14:41,119 +0100 [main] INFO  (SelectInsuranceTest.java:129) - Logging in
+2022-09-09 01:15:02,421 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 01:15:05,364 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 01:15:05,941 +0100 [main] ERROR (SelectInsuranceTest.java:137) - Failed to login: 
+java.lang.NullPointerException
+2022-09-09 01:15:14,782 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 01:15:14,858 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 01:15:17,139 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 1
+2022-09-09 01:15:19,308 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 2
+2022-09-09 01:15:21,462 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 3
+2022-09-09 01:15:23,815 +0100 [main] INFO  (SelectInsuranceTest.java:90) - Clicked star number: 4
+2022-09-09 01:15:23,816 +0100 [main] INFO  (SelectInsuranceTest.java:101) - Selecting Health Insurance
+2022-09-09 01:15:24,224 +0100 [main] ERROR (SelectInsuranceTest.java:108) - Health Insurance not selected. See error: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),'Select...')]" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Select...')]"' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 439377300092a4085c4b45138bbc6833
+*** Element info: {Using=xpath, value=//span[contains(text(),'Select...')]"}
+2022-09-09 01:15:24,226 +0100 [main] INFO  (SelectInsuranceTest.java:119) - Adding review text
+2022-09-09 01:15:24,749 +0100 [main] ERROR (SelectInsuranceTest.java:126) - Failed to add review text: 
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 439377300092a4085c4b45138bbc6833
+2022-09-09 01:15:24,749 +0100 [main] INFO  (SelectInsuranceTest.java:129) - Logging in
+2022-09-09 01:15:42,087 +0100 [main] ERROR (SelectInsuranceTest.java:137) - Failed to login: 
+org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '192.168.4.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 439377300092a4085c4b45138bbc6833
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 09:28:14,146 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 09:28:16,038 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 09:28:21,976 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 09:28:22,033 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 09:28:24,242 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 1
+2022-09-09 09:28:26,397 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 2
+2022-09-09 09:28:28,547 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 3
+2022-09-09 09:28:30,775 +0100 [main] INFO  (SelectInsuranceTest.java:90) - Clicked star number: 4
+2022-09-09 09:28:30,775 +0100 [main] INFO  (SelectInsuranceTest.java:101) - Selecting Health Insurance
+2022-09-09 09:28:30,914 +0100 [main] ERROR (SelectInsuranceTest.java:108) - Health Insurance not selected. See error: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),'Select...')]" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Select...')]"' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 964b48fbeee2f1e548ef2fd94942ce5d
+*** Element info: {Using=xpath, value=//span[contains(text(),'Select...')]"}
+2022-09-09 09:28:30,915 +0100 [main] INFO  (SelectInsuranceTest.java:119) - Adding review text
+2022-09-09 09:28:31,137 +0100 [main] ERROR (SelectInsuranceTest.java:126) - Failed to add review text: 
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 964b48fbeee2f1e548ef2fd94942ce5d
+2022-09-09 09:28:31,137 +0100 [main] INFO  (SelectInsuranceTest.java:129) - Logging in
+2022-09-09 09:29:31,232 +0100 [main] ERROR (SelectInsuranceTest.java:137) - Failed to login: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.60', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 964b48fbeee2f1e548ef2fd94942ce5d
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 09:37:03,040 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 09:37:04,675 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 09:49:07,924 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 09:49:09,905 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 09:49:24,560 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 09:49:24,612 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 09:49:26,851 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 1
+2022-09-09 09:49:28,998 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 2
+2022-09-09 09:49:31,145 +0100 [main] INFO  (SelectInsuranceTest.java:93) - Hovered over star number: 3
+2022-09-09 09:49:33,373 +0100 [main] INFO  (SelectInsuranceTest.java:90) - Clicked star number: 4
+2022-09-09 09:49:33,374 +0100 [main] INFO  (SelectInsuranceTest.java:100) - Selecting Health Insurance
+2022-09-09 09:49:33,564 +0100 [main] ERROR (SelectInsuranceTest.java:107) - Health Insurance not selected. See error: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),'Select...')]" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Select...')]"' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c278712fb9958066d83839d4f7e57cf
+*** Element info: {Using=xpath, value=//span[contains(text(),'Select...')]"}
+2022-09-09 09:49:33,565 +0100 [main] INFO  (SelectInsuranceTest.java:118) - Adding review text
+2022-09-09 09:49:33,848 +0100 [main] ERROR (SelectInsuranceTest.java:125) - Failed to add review text: 
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c278712fb9958066d83839d4f7e57cf
+2022-09-09 09:49:33,848 +0100 [main] INFO  (SelectInsuranceTest.java:128) - Logging in
+2022-09-09 09:50:33,924 +0100 [main] ERROR (SelectInsuranceTest.java:136) - Failed to login: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c278712fb9958066d83839d4f7e57cf
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 09:51:09,736 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 09:51:11,726 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 09:53:14,012 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 09:53:14,073 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 09:53:16,294 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 1
+2022-09-09 09:53:18,438 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 2
+2022-09-09 09:53:20,588 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 3
+2022-09-09 09:53:22,814 +0100 [main] INFO  (SelectInsuranceTest.java:89) - Clicked star number: 4
+2022-09-09 09:53:22,815 +0100 [main] INFO  (SelectInsuranceTest.java:99) - Selecting Health Insurance
+2022-09-09 09:53:23,243 +0100 [main] INFO  (SelectInsuranceTest.java:103) - Health Insurance selected
+2022-09-09 09:53:23,246 +0100 [main] INFO  (SelectInsuranceTest.java:117) - Adding review text
+2022-09-09 09:53:23,486 +0100 [main] ERROR (SelectInsuranceTest.java:124) - Failed to add review text: 
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c567ec032f7335e77b08387e2400b42
+2022-09-09 09:53:23,487 +0100 [main] INFO  (SelectInsuranceTest.java:127) - Logging in
+2022-09-09 09:54:23,534 +0100 [main] ERROR (SelectInsuranceTest.java:135) - Failed to login: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c567ec032f7335e77b08387e2400b42
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 10:04:04,786 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 10:04:07,075 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 10:05:14,944 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 10:05:15,011 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 10:05:17,488 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 1
+2022-09-09 10:05:19,631 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 2
+2022-09-09 10:05:21,780 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 3
+2022-09-09 10:05:24,002 +0100 [main] INFO  (SelectInsuranceTest.java:89) - Clicked star number: 4
+2022-09-09 10:05:24,002 +0100 [main] INFO  (SelectInsuranceTest.java:99) - Selecting Health Insurance
+2022-09-09 10:05:24,316 +0100 [main] INFO  (SelectInsuranceTest.java:103) - Health Insurance selected
+2022-09-09 10:05:24,316 +0100 [main] INFO  (SelectInsuranceTest.java:117) - Adding review text
+2022-09-09 10:05:24,364 +0100 [main] ERROR (SelectInsuranceTest.java:124) - Failed to add review text: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71d2bad69b128e3284b24eac427d1a77
+*** Element info: {Using=css selector, value=//textarea[@placeholder = 'Write your review...']}
+2022-09-09 10:05:24,364 +0100 [main] INFO  (SelectInsuranceTest.java:127) - Logging in
+2022-09-09 10:06:24,428 +0100 [main] ERROR (SelectInsuranceTest.java:135) - Failed to login: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71d2bad69b128e3284b24eac427d1a77
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 10:28:48,906 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 10:28:51,178 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 10:29:56,800 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 10:29:56,849 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 10:29:59,119 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 1
+2022-09-09 10:30:01,274 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 2
+2022-09-09 10:30:03,427 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 3
+2022-09-09 10:30:05,668 +0100 [main] INFO  (SelectInsuranceTest.java:89) - Clicked star number: 4
+2022-09-09 10:30:05,668 +0100 [main] INFO  (SelectInsuranceTest.java:99) - Selecting Health Insurance
+2022-09-09 10:30:05,983 +0100 [main] INFO  (SelectInsuranceTest.java:103) - Health Insurance selected
+2022-09-09 10:30:05,984 +0100 [main] INFO  (SelectInsuranceTest.java:117) - Adding review text
+2022-09-09 10:30:06,038 +0100 [main] ERROR (SelectInsuranceTest.java:124) - Failed to add review text: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43125201604edc1cd052d0bcd95d61d5
+*** Element info: {Using=css selector, value=//textarea[@placeholder = 'Write your review...']}
+2022-09-09 10:30:06,040 +0100 [main] INFO  (SelectInsuranceTest.java:127) - Logging in
+2022-09-09 10:31:06,127 +0100 [main] ERROR (SelectInsuranceTest.java:135) - Failed to login: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43125201604edc1cd052d0bcd95d61d5
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 12:02:16,191 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 12:02:18,195 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 12:02:43,984 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 12:02:44,037 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 12:02:46,240 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 1
+2022-09-09 12:02:48,395 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 2
+2022-09-09 12:02:50,551 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 3
+2022-09-09 12:02:52,779 +0100 [main] INFO  (SelectInsuranceTest.java:89) - Clicked star number: 4
+2022-09-09 12:02:52,779 +0100 [main] INFO  (SelectInsuranceTest.java:99) - Selecting Health Insurance
+2022-09-09 12:02:53,035 +0100 [main] INFO  (SelectInsuranceTest.java:103) - Health Insurance selected
+2022-09-09 12:02:53,036 +0100 [main] INFO  (SelectInsuranceTest.java:117) - Adding review text
+2022-09-09 12:02:54,114 +0100 [main] INFO  (SelectInsuranceTest.java:127) - Logging in
+2022-09-09 12:03:54,176 +0100 [main] ERROR (SelectInsuranceTest.java:135) - Failed to login: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IANKOH--PC', ip: '10.23.101.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\iankoh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 106e176ff15045695ecc06def486dadd
+*** Element info: {Using=xpath, value=//body/main[1]/div[1]/form[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]}
+2022-09-09 12:06:52,378 +0100 [main] INFO  (SelectInsuranceTest.java:51) - Lanching browser
+2022-09-09 12:06:54,168 +0100 [main] INFO  (SelectInsuranceTest.java:60) - Navigating to URL
+2022-09-09 12:07:07,819 +0100 [main] INFO  (SelectInsuranceTest.java:69) - Scroll to star ratings
+2022-09-09 12:07:07,885 +0100 [main] INFO  (SelectInsuranceTest.java:79) - Hovering over stars
+2022-09-09 12:07:10,101 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 1
+2022-09-09 12:07:12,248 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 2
+2022-09-09 12:07:14,406 +0100 [main] INFO  (SelectInsuranceTest.java:92) - Hovered over star number: 3
+2022-09-09 12:07:16,655 +0100 [main] INFO  (SelectInsuranceTest.java:89) - Clicked star number: 4
+2022-09-09 12:07:16,656 +0100 [main] INFO  (SelectInsuranceTest.java:99) - Selecting Health Insurance
+2022-09-09 12:07:16,980 +0100 [main] INFO  (SelectInsuranceTest.java:103) - Health Insurance selected
+2022-09-09 12:07:16,982 +0100 [main] INFO  (SelectInsuranceTest.java:117) - Adding review text
+2022-09-09 12:07:18,411 +0100 [main] INFO  (SelectInsuranceTest.java:127) - Logging in
+2022-09-09 13:01:27,043 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:03:20,935 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:03:20,936 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:03:59,904 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:03:59,907 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:04:34,695 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:04:34,698 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:04:36,732 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 13:05:25,778 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:05:25,780 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:05:27,515 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 13:06:04,872 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:06:04,874 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:06:06,906 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 13:31:26,909 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:31:26,911 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:31:28,884 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 13:32:08,979 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:32:08,981 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:32:10,777 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 13:33:15,182 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:33:15,189 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:33:17,331 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 13:34:03,532 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:34:03,536 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:34:05,260 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 13:34:59,223 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 13:34:59,225 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 13:35:00,914 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 14:36:50,590 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 14:36:50,593 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 14:36:52,823 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 15:30:09,724 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 15:30:09,730 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 15:30:11,543 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 16:02:02,941 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 16:02:02,944 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 16:02:04,727 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 16:02:39,107 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 16:02:39,110 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 16:02:40,781 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
+2022-09-09 16:03:21,317 +0100 [main] INFO  (facebookTest.java:46) - ------- STARTING LOGIN TEST -------
+2022-09-09 16:03:21,319 +0100 [main] INFO  (facebookTest.java:47) - Lanching browser
+2022-09-09 16:03:23,007 +0100 [main] INFO  (facebookTest.java:52) - Navigating to URL
