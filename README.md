@@ -1,4 +1,4 @@
-# PayLawma
+# Facebook and Wallet hub page
 
 Pay Lawma Web automation script
 
