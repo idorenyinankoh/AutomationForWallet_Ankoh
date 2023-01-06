@@ -4,7 +4,7 @@
 	<!-- <listeners> <listener class-name="resources.Listeners" /> <listener 
 		class-name="resources.ExtentReporterNG" /> </listeners> -->
 
-	<test thread-count="2" name="WalletTest">
+	<test thread-count="2" name="Wallet_Test">
 		<classes>
 			<class name="com.walletHub.StestCases.SelectInsuranceTest" />
 			<class name="com.walletHub.StestCases.facebookTest" />
