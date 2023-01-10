@@ -21,6 +21,7 @@ public class Utils {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		return driver;
+		// test
 	}
 
 	public void quitBrowser (WebDriver driver) {
